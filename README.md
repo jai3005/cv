@@ -81,3 +81,191 @@
 </html>
 
 **
+.top-conatiner{
+    background-color: #EAF6F6;
+    position: relative;
+    padding-top: 100px;
+}
+.profile{
+    margin: 0;
+    padding: 50px;
+}
+
+h1{
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.26rem;
+    color: #66BFBF;
+}
+
+h2{
+    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #21adad;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #177579;
+}
+
+a{
+    color: #032e30;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+a:hover{
+    color: #EAF6F6;
+}
+
+body{
+    color: black;
+    margin:0; /*This commands sets all the margins to 0 and it as we dont specify unit so it will judge accordingly*/
+    text-align: center;
+    font-family: 'Merriweather', serif;
+
+}
+.intro{
+     width: 40%;
+     margin: auto;
+}
+
+.middle-container{
+    background-color: #B5EAEA;
+}
+    
+
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 25px;
+}
+
+p{
+    line-height: 2;
+}
+
+
+
+.skills{
+    margin-bottom: 100px;
+}
+
+
+.skill-row{
+    width: 50%;
+    margin: 50px auto 50px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+
+.skill-img{
+    width: 22%;
+    float: left;
+    padding: 30px;
+}
+.skill-imgg{
+    width: 20%;
+    float: left;
+    margin-left: 10px;
+}
+.skill-imggg{
+    width: 35%;
+    float: right;
+    padding: 30px;
+}
+.skill-imgggg{
+    width: 20%;
+    float: right;
+}
+
+input{
+    background-color:#66BFBF;
+}
+
+button{
+    background-color: #B5EAEA;
+}
+button:hover
+{
+    background-color:#daebee;
+}
+span{
+    text-decoration: underline;
+}
+
+.bottom-img{
+    position: absolute;
+    bottom: 300px;
+    left: 250px;
+}
+
+.top-img{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.sub{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    color: #66BFBF;
+    font-weight:bold;
+}
+.end{
+ width: 40%;
+ margin: auto   ;   
+}
+
+.copyright{
+    color:#EAF6F6;
+    font-size: 0.75rem;
+    padding: 15px;
+}
+hr{
+    border: dotted grey 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 80px auto;
+}
+
+.BUTTON_IBY {
+    background: #66BFBF;
+    background-image: -webkit-linear-gradient(top, #66BFBF, #66BFBF);
+    background-image: -moz-linear-gradient(top, #66BFBF, #66BFBF);
+    background-image: -ms-linear-gradient(top, #66BFBF, #66BFBF);
+    background-image: -o-linear-gradient(top, #66BFBF, #66BFBF);
+    background-image: -webkit-gradient(to bottom, #66BFBF, #66BFBF);
+    -webkit-border-radius: 27px;
+    -moz-border-radius: 27px;
+    border-radius: 27px;
+    color: #FFFFFF;
+    font-family: Verdana;
+    font-size: 15px;
+    padding: 10px;
+    -webkit-box-shadow: 1px 1px 8px 0 #2571EB;
+    -moz-box-shadow: 1px 1px 8px 0 #2571EB;
+    box-shadow: 1px 1px 8px 0 #2571EB;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #337FED 0;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin: 50px auto;
+ }
+ 
+ .BUTTON_IBY:hover {
+    border: solid #337FED 0;
+    background: #177579;
+    background-image: -webkit-linear-gradient(top, #177579, #177579);
+    background-image: -moz-linear-gradient(top, #177579, #177579);
+    background-image: -ms-linear-gradient(top, #177579, #177579);
+    background-image: -o-linear-gradient(top, #177579, #177579);
+    background-image: -webkit-gradient(to bottom, #177579, #177579);
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    text-decoration: none;
+ }
